@@ -1,0 +1,17 @@
+// font family import 
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+//default css
+
+body{
+    background-color: #0F0D0E;
+    color: #F9F4DA;
+    font-family: 'Rokkitt', serif;
+    padding: 10px;
+}
+
+.shadow{
+    box-shadow: 4px 4px 0px 1px rgba(46,42,42,1);
+    -webkit-box-shadow: 4px 4px 0px 1px rgba(46,42,42,1);
+    -moz-box-shadow: 4px 4px 0px 1px rgba(46,42,42,1);
+}
