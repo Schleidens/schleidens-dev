@@ -9,3 +9,9 @@ body{
     font-family: 'Rokkitt', serif;
     padding: 10px;
 }
+
+.shadow{
+    box-shadow: 4px 4px 0px 1px rgba(46,42,42,1);
+    -webkit-box-shadow: 4px 4px 0px 1px rgba(46,42,42,1);
+    -moz-box-shadow: 4px 4px 0px 1px rgba(46,42,42,1);
+}
