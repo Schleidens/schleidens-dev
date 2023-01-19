@@ -1,6 +1,7 @@
 <template>
     <div>
         <intro />
+        <stack />
     </div>
 </template>
 
