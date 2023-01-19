@@ -1,6 +1,6 @@
 <template>
     <div>
-        I'm the main page
+        <intro />
     </div>
 </template>
 
