@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-jaune shadow text-raisin-black text-2xl px-2 py-1 flex justify-between w-full">
+    <div class="sticky top-2 bg-jaune shadow text-raisin-black text-2xl px-2 py-1 flex justify-between w-full">
        <div>
         <h1 class="font-bold">
            <NuxtLink to="/">
