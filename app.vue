@@ -1,7 +1,10 @@
 <template>
   <div>
     <navbar />
-    <NuxtPage />
+    <div class="mt-6 mb-6 h-screen">
+      <NuxtPage />
+    </div>
+    <TheFooter />
   </div>
 </template>
 
