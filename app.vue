@@ -1,7 +1,7 @@
 <template>
   <div>
     <navbar />
-    <div class="mt-6 mb-6 h-screen">
+    <div class="mt-6 mb-6">
       <NuxtPage />
     </div>
     <TheFooter />
