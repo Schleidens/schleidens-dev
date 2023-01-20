@@ -2,6 +2,7 @@
     <div>
         <intro />
         <stack />
+        <tools />
     </div>
 </template>
 
