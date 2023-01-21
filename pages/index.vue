@@ -4,6 +4,7 @@
         <stack />
         <projects />
         <tools />
+        <links />
     </div>
 </template>
 
