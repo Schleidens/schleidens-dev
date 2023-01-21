@@ -4,7 +4,7 @@
         <div class="flex-raw md:flex">
             <div 
             v-for="{title, description, image, tags, github, demo} in projects" 
-            class="bg-happy-black my-2 mx-2 p-2"
+            class="bg-happy-black my-2 md:mx-2 p-2"
             >
                 <div class="flex flex-col">
                     <h3 class="text-2xl">{{ title }}</h3>
