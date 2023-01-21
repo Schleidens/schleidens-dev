@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-raisin-black shadow mt-6 py-10 px-2 text-left">
+    <div class="bg-raisin-black shadow mt-6 py-10 px-4 text-left">
         <h2 class="text-4xl font-black underline">myTools();</h2>
         <div class="text-xl">
             <ul v-for="{title, description} in tools">

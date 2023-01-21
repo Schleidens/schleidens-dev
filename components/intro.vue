@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-raisin-black shadow py-10 md:py-20 px-2 text-left text-3xl md:text-5xl">
+    <div class="bg-raisin-black shadow py-10 md:py-20 px-4 text-left text-3xl md:text-5xl">
         <h2 class="text-5xl text-jaune">
             &#128075; Hi there, I'm Schleidens.
         </h2>
