@@ -23,7 +23,7 @@
         },
         {
             title: "VsCode",
-            description: "IDE (Theme: Github Theme)"
+            description: "IDE (Theme: Github Theme, The unnamed)"
         },
         {
             title: "Insomnia",
