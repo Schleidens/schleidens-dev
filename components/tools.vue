@@ -14,7 +14,7 @@
 <script setup>
     const tools = ref([
         {
-            title: "Git & Github",
+            title: "Git & Github & Bitbucket",
             description: "Version control and code hosting."
         },
         {
