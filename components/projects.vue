@@ -8,7 +8,7 @@
             >
                 <div class="flex flex-col">
                     <h3 class="text-2xl">{{ title }}</h3>
-                    <img :src="image" alt="">
+                    <img :src="image" :alt="title">
                     <p class="text-xl">{{ description }}</p>
                     <p class="font-black text-pink">{{ tags }}</p>
 
@@ -19,11 +19,27 @@
                 </div>
         </div>
         </div>
+
+        <div class="flex justify-end">
+            <NuxtLink to="/projects">
+                <div class="bg-raisin-black shadow p-2 mt-4 mr-1">
+                    See more projects
+                </div>
+            </NuxtLink>
+        </div>
     </div>
 </template>
 
 <script setup>
     const projects = ref([
+        {
+            title: "TIGINI",
+            description: "This blog was created as a learning project to explore the various features and capabilities of Django",
+            image: "https://ik.imagekit.io/nv2j2amfx9/tigini1.png",
+            tags: "Django, Bootstrap5, Pythonanywhere, Pillow",
+            github: "https://github.com/Schleidens/tigini",
+            demo: "https://spideralpha8.pythonanywhere.com/"
+        },
         {
             title: "TRYBY",
             description: "Tryby is a jamstack demo project built with Gatsby/Contentful.",
@@ -39,14 +55,6 @@
             tags: "React, Vite, Tailwindcss, Netlify",
             github: "https://github.com/Schleidens/youtube-redesign",
             demo: "https://yt-schleidens.netlify.app/"
-        },
-        {
-            title: "Instagram redesign",
-            description: "Remake of Instagram web version",
-            image: "https://res.cloudinary.com/schleidens/image/upload/v1674274739/instagramredesign.png",
-            tags: "React, Vite, Tailwindcss, Netlify",
-            github: "https://github.com/Schleidens/instagram-redesign",
-            demo: "https://ig-schleidens.netlify.app/"
         }
     ])
 </script>
