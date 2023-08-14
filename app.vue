@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-  const title = ref("Schleidens.Dev - Fullstack web developer")
-  const description = ref("I am a self-taught fullstack web developer with a passion for creating dynamic and engaging web experiences.")
+  const title = ref("Schleidens.Dev - Fullstack Software Developer")
+  const description = ref("I'm an experienced Full Stack Software Developer with 5+ years of experience, driven by a deep passion for creating and delivering cutting-edge web solutions.")
   const image = ref("https://res.cloudinary.com/schleidens/image/upload/v1674236203/cover_image_1schleidens_u2wspj.png")
 
   useHead({
