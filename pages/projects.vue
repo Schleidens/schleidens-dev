@@ -1,23 +1,20 @@
 <template>
     <div class="bg-raisin-black shadow mt-6 py-10 px-4 text-left">
         <h2 class="text-4xl font-black underline">myProjects();</h2>
-        <div class="md:flex md:flex-wrap">
-            <div 
-            v-for="{title, description, image, tags, github, demo} in projects" 
-            class="md:w-1/3"
-            >
-                <div class="bg-happy-black my-2 md:mx-2 p-2 flex flex-col">
-                    <h3 class="text-2xl">{{ title }}</h3>
-                    <img :src="image" :alt="title">
-                    <p class="text-xl">{{ description }}</p>
-                    <p class="font-black text-pink">{{ tags }}</p>
+        <div class="md:flex flex-wrap">
+                <div v-for="{title, description, image, tags, github, demo} in projects" class="my-2 w-full md:w-1/3">
+                    <div class="flex flex-col bg-happy-black h-full mx-2 p-2">
+                        <h3 class="text-2xl">{{ title }}</h3>
+                        <img :src="image" :alt="title">
+                        <p class="text-xl">{{ description }}</p>
+                        <p class="font-black text-pink">{{ tags }}</p>
 
-                    <div class="font-black flex mt-4">
-                        <a :href="github" target="blank" class="mr-4">Github</a>
-                        <a :href="demo" target="blank">Live demo</a>
+                        <div class="font-black flex mt-4">
+                            <a :href="github" target="blank" class="mr-4">Github</a>
+                            <a :href="demo" target="blank">Live demo</a>
+                        </div>
                     </div>
                 </div>
-        </div>
         </div>
     </div>
 </template>
