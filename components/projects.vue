@@ -1,7 +1,7 @@
 <template>
     <div class="bg-raisin-black shadow mt-6 py-10 px-4 text-left">
         <h2 class="text-4xl font-black underline">myProjects();</h2>
-        <div class="flex-raw md:flex">
+        <div class="md:flex">
             <div 
             v-for="{title, description, image, tags, github, demo} in projects" 
             class="bg-happy-black my-2 md:mx-2 p-2"
