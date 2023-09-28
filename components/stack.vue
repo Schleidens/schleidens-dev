@@ -25,15 +25,15 @@
     const stacks = ref([
         {
             title: "Languages",
-            stack: "Python | Javascript |  Typescript"
+            stack: "Python | Javascript | Typescript"
         },
         {
             title: "Front End",
-            stack: "Vue.js | React.js | Nuxt.js | Next.js | Gatsby | Vite | TailwindCss | Bootstrap"
+            stack: "Vue.js | React.js | Nuxt.js | Next.js | Gatsby | Vite | TailwindCss | Bootstrap | SCSS"
         },
         {
             title: "Back End",
-            stack: "Django | Nodejs | Express.js | Headless CMS | MongoDB | PostgreSQL"
+            stack: "Django | Nodejs | Express.js | Headless CMS | MongoDB | PostgreSQL | Firebase | Supabase"
         }
     ])
 </script>

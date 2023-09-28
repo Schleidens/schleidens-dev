@@ -17,7 +17,7 @@
 <script setup>
     const links = ref([
         {
-            title: "Twitter",
+            title: "X (Twitter)",
             link: "https://twitter.com/schleidens_dev"
         },
         {

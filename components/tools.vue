@@ -18,7 +18,7 @@
             description: "Version control and code hosting."
         },
         {
-            title: "Netlify & Vercel",
+            title: "Netlify & Vercel & Render",
             description: "PaaS Hosting providers"
         },
         {
