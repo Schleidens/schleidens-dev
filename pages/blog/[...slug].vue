@@ -2,7 +2,7 @@
   <div class="mt-8 md:mt-6 py-8 px-2 md:px-36 bg-raisin-black shadow">
     <ContentRenderer
       :value="blog"
-      class="w-full max-w-full prose prose-invert prose-h1:text-6xl prose-h1:text-jaune prose-p:text-2xl prose-p:text-justify"
+      class="w-full max-w-full prose prose-invert prose-h1:text-4xl prose-h1:md:text-6xl prose-h1:text-jaune prose-p:text-2xl prose-p:text-justify"
     />
   </div>
 </template>
