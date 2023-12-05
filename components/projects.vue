@@ -47,7 +47,7 @@
     {
       title: 'CLEEP (Google keep clone/redesign)',
       description:
-        'Clone/Redesign of google keep note app with all functionalities (Auth, CRUD, ....)',
+        'Clone/Redesign of google keep note app with all features (Auth, CRUD, ....)',
       image: 'https://ik.imagekit.io/nv2j2amfx9/cleep-note.png',
       tags: 'React, SCSS, Firebase, Netlify',
       github: 'https://github.com/Schleidens/cleep',
