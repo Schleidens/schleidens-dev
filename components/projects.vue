@@ -17,12 +17,14 @@
 
           <div class="font-black flex mt-4">
             <a
+              v-if="github != ''"
               :href="github"
               target="blank"
               class="mr-4"
               >Github</a
             >
             <a
+              v-if="demo != ''"
               :href="demo"
               target="blank"
               >Live demo</a
