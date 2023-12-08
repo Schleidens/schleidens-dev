@@ -1,7 +1,9 @@
 # Schleidens.dev
 
 Welcome to the repository for my personal website, [Schleidens.dev](https://schleidens.netlify.app/). This repository houses the source code, assets, and configurations used to build and deploy my website.
-Technologies Used
+
+
+## Technologies Used
 
 - HTML/CSS/JavaScript: The core technologies for building the website.
 - Vue: Used for creating dynamic and interactive components.
