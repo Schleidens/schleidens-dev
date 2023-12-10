@@ -8,6 +8,7 @@ Welcome to the repository for my personal website, [Schleidens.dev](https://schl
 - HTML/CSS/JavaScript: The core technologies for building the website.
 - Vue: Used for creating dynamic and interactive components.
 - Nuxt: The meta Framework for optimizing performance, SEO and enhancing the development experience.
+- NuxtContent: File-based CMS for Nuxt
 - Netlify: Hosting platform for continuous deployment and seamless updates.
 
 ## Project Structure
