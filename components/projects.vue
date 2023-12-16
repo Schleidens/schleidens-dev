@@ -45,6 +45,15 @@
 <script setup>
   const projects = ref([
     {
+      title: 'SuperBlaBlaLand',
+      description:
+        'Team up with the front-end folks to build some cool new pages and features, and throw in a custom library for the real-time chat .',
+      image: 'https://ik.imagekit.io/nv2j2amfx9/superblablaland.png',
+      tags: 'React, SCSS, Boostrap5, Figma',
+      github: '',
+      demo: 'https://www.superblablaland.com/',
+    },
+    {
       title: 'CLEEP (Google keep clone/redesign)',
       description:
         'Clone/Redesign of google keep note app with all features (Auth, CRUD, ....)',
@@ -61,15 +70,6 @@
       tags: 'Django, Bootstrap5, Pythonanywhere, Pillow',
       github: 'https://github.com/Schleidens/tigini',
       demo: 'https://spideralpha8.pythonanywhere.com/',
-    },
-    {
-      title: 'Youtube redesign',
-      description: 'Remake of Youtube web version',
-      image:
-        'https://res.cloudinary.com/schleidens/image/upload/v1674274740/youtuberedesign.png',
-      tags: 'React, Vite, Tailwindcss, Netlify',
-      github: 'https://github.com/Schleidens/youtube-redesign',
-      demo: 'https://yt-schleidens.netlify.app/',
     },
   ]);
 </script>
