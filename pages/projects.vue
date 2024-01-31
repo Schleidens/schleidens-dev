@@ -39,6 +39,15 @@
 <script setup>
   const projects = ref([
     {
+      title: 'We Just Chat',
+      description:
+        'A real-time chat application with user authentication, messaging functionality, and a user list feature.',
+      image: 'https://ik.imagekit.io/nv2j2amfx9/we-just-chat.png',
+      tags: 'React, Signal, SCSS, Boostrap5, Figma, Firebase, Nodejs, Express, Websocket, Postgres, Netlify, Heroku',
+      github: '',
+      demo: 'https://we-just-chat.netlify.app/',
+    },
+    {
       title: 'SuperBlaBlaLand',
       description:
         'Team up with the front-end folks to build some cool new pages and features, and throw in a custom library for the real-time chat .',

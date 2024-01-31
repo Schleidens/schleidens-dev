@@ -47,6 +47,15 @@
 <script setup>
   const projects = ref([
     {
+      title: 'We Just Chat',
+      description:
+        'A real-time chat application with user authentication, messaging functionality, and a user list feature.',
+      image: 'https://ik.imagekit.io/nv2j2amfx9/we-just-chat.png',
+      tags: 'React, Signal, SCSS, Boostrap5, Figma, Firebase, Nodejs, Express, Websocket, Postgres, Netlify, Heroku',
+      github: '',
+      demo: 'https://we-just-chat.netlify.app/',
+    },
+    {
       title: 'SuperBlaBlaLand',
       description:
         'Team up with the front-end folks to build some cool new pages and features, and throw in a custom library for the real-time chat .',
@@ -63,15 +72,6 @@
       tags: 'React, SCSS, Firebase, Netlify',
       github: 'https://github.com/Schleidens/cleep',
       demo: 'https://cleep-note.netlify.app/',
-    },
-    {
-      title: 'TIGINI',
-      description:
-        'This blog was created as a learning project to explore the various features and capabilities of Django',
-      image: 'https://ik.imagekit.io/nv2j2amfx9/tigini1.png',
-      tags: 'Django, Bootstrap5, Pythonanywhere, Pillow',
-      github: 'https://github.com/Schleidens/tigini',
-      demo: 'https://spideralpha8.pythonanywhere.com/',
     },
   ]);
 </script>
