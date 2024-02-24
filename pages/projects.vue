@@ -50,7 +50,7 @@
     {
       title: 'SuperBlaBlaLand',
       description:
-        'Team up with the front-end folks to build some cool new pages and features, and throw in a custom library for the real-time chat .',
+        'Work as a full-stack developer, implementing amazing features with an incredible team.',
       image: 'https://ik.imagekit.io/nv2j2amfx9/superblablaland.png',
       tags: 'React, SCSS, Boostrap5, Figma',
       github: '',
