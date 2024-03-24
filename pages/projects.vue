@@ -39,6 +39,15 @@
 <script setup>
   const projects = ref([
     {
+      title: 'Good Sport Golf Club',
+      description:
+        'Work as a as a Full Stack Developer to deliver crucial features including payment integration and robust admin account management features with client-centric communication.',
+      image: 'https://ik.imagekit.io/nv2j2amfx9/gsgc.png',
+      tags: 'React, Signal, SCSS, TailwindCSS, Figma, Firebase, Nodejs, Express, Postgres, TypeORM, Paypal, Twilio/sendgrid',
+      github: '',
+      demo: 'https://goodsportgolf.com/',
+    },
+    {
       title: 'We Just Chat',
       description:
         'A real-time chat application with user authentication, messaging functionality, and a user list feature.',
