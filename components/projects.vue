@@ -47,6 +47,15 @@
 <script setup>
   const projects = ref([
     {
+      title: 'Care-Wise',
+      description:
+        'Redesigned the website with a clean look, improving SEO, optimization and performance by 70%, which led to higher search rankings and a better user experience.',
+      image: 'https://ik.imagekit.io/nv2j2amfx9/care-wise.png',
+      tags: 'Next.js, React, SCSS, Bootstrap5, ReactStrap, Figma, Vercel',
+      github: '',
+      demo: 'https://care-wise.com/',
+    },
+    {
       title: 'Good Sport Golf Club',
       description:
         'Work as a as a Full Stack Developer to deliver crucial features including payment integration and robust admin account management features with client-centric communication.',
@@ -72,15 +81,6 @@
       tags: 'React, Node.js, Express, Prisma, PostgreSQL, websocket,  SCSS, tailwind, Figma',
       github: '',
       demo: 'https://www.superblablaland.com/',
-    },
-    {
-      title: 'CLEEP (Google keep clone/redesign)',
-      description:
-        'Clone/Redesign of google keep note app with all features (Auth, CRUD, ....)',
-      image: 'https://ik.imagekit.io/nv2j2amfx9/cleep-note.png',
-      tags: 'React, SCSS, Firebase, Netlify',
-      github: 'https://github.com/Schleidens/cleep',
-      demo: 'https://cleep-note.netlify.app/',
     },
   ]);
 </script>

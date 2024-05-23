@@ -39,6 +39,15 @@
 <script setup>
   const projects = ref([
     {
+      title: 'Care-Wise',
+      description:
+        'Redesigned the website with a clean look, improving SEO, optimization and performance by 70%, which led to higher search rankings and a better user experience.',
+      image: 'https://ik.imagekit.io/nv2j2amfx9/care-wise.png',
+      tags: 'Next.js, React, SCSS, Bootstrap5, ReactStrap, Figma, Vercel',
+      github: '',
+      demo: 'https://care-wise.com/',
+    },
+    {
       title: 'Good Sport Golf Club',
       description:
         'Work as a as a Full Stack Developer to deliver crucial features including payment integration and robust admin account management features with client-centric communication.',
