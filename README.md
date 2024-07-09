@@ -2,6 +2,8 @@
 
 Welcome to the repository for my personal website, [Schleidens.dev](https://schleidens.netlify.app/). This repository houses the source code, assets, and configurations used to build and deploy my website.
 
+Check the V2 -> [Schleidens.dev V2](https://schleidens.dev/).
+
 
 ## Technologies Used
 
