@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://schleidens.dev/:splat"
+  status = 301
+  force = true
