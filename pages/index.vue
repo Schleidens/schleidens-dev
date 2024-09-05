@@ -1,12 +1,12 @@
 <template>
-    <div>
-        <intro />
-        <stack />
-        <projects />
-        <tools />
-        <links />
-    </div>
+  <div>
+    <redirectModal />
+    <intro />
+    <stack />
+    <projects />
+    <tools />
+    <links />
+  </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
